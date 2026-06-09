@@ -61,3 +61,6 @@ sample. Prefer a non-root user — hostile images include decompression bombs.
 `classify.py` is the recommended starting point: the ELF header layout is
 small enough to read end to end. Good first changes: extend the `MACHINES`
 map, harden the stripped heuristic, or add a section/segment dump.
+
+## Provenance
+Built with AI assistance; see the roadmap section for components under active, independent development.
