@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Firmware artifacts -- NEVER commit images or extraction output
+*.bin
+*.img
+*.trx
+*.chk
+*.jffs2
+*.ubi
+extractions/
+*_extracted/
+fwtriage_out/
+*-out/
